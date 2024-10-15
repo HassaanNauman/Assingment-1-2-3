@@ -39,7 +39,7 @@
     <div class="contact-info">
         <p>If you have any questions, feel free to reach out to us!</p>
         <p>Email: info@example.com</p>
-        <p>Phone: +1 (234) 567-890</p>
+        <p>Phone: +92 325 7247599  </p>
     </div>
 
  <div class="social-links">
