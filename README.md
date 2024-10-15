@@ -1,62 +1,64 @@
-# Assingment-1-2-3
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Navigation Bar</title>
-    <link href="contact.html" >
-    <link href="gallerypage.html">
-	<style type="text/css">
-		*{
-			text-decoration: none;
-		}
-		.navbar{
-			background: lightgreen; font-family: calibri; padding-right: 15px;padding-left: 15px;
-		}
-		.navdiv{
-			display: flex; align-items: center; justify-content: space-between;
-		}
-		.logo a{
-			font-size: 35px; font-weight: 600; color: white;
-		}
-		li{
-			list-style: none; display: inline-block;
-		}
-		li a{
-			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
-		}
-		button{
-			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
-		}
-		button a{
-			color: white; font-weight: bold; font-size: 15px;
-		}
-        .SMIT img{
-            width: 100px;
-            height: 75px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
         }
-	</style>
+        h1 {
+            color: #333;
+        }
+        .contact-info {
+            margin: 20px 0;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+            display: flex;
+            align-items: center;
+        }
+        img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
-	<nav class="navbar">
-		<div class="navdiv">
-            <nav class="SMIT">
-                <img src="https://arman-assignment1.netlify.app/logo-OpazD70S.png" alt="SMIT Logo">
-          
-</nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-                <button>
-				<li><a href="gallerypage.html">Gallery page</a></li>
-            </button>
-                <button>
-				<li><a href="contact.html">Contact</a></li>
-            </button>
-				<button><a href="#">SignIn</a></button>
-				<button><a href="#">SignUp</a></button>
-			</ul>
-		</div>
-	</nav>
+ <h1>Contact Us</h1>
+    <div class="contact-info">
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 (234) 567-890</p>
+    </div>
+
+ <div class="social-links">
+        <h2>Follow Us</h2>
+        <a href="https://www.facebook.com/Hassaan Nauman" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+            Facebook
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            Instagram
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn Logo">
+            LinkedIn
+        </a>
+    </div>
+
 </body>
 </html>
+
+	
